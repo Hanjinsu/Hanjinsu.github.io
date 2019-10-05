@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> div {
+        margin-left : 50%;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        background: red;
+        position: relative;
+        border: 2px solid black;
+        animation: 2s myanim;
+        animation-iteration-count: 10;
+    }
+
+    @keyframes myanim {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            border-radius: 0px;
+            background: green;
+            left: 100px;
+            top: 0px;
+        }
+        50% {
+            background-color: yellow;
+            border-radius: 100px;
+            left: 200px;
+            top: 0px;
+        }
+        75% {
+            background: green;
+            border-radius: 0px;
+            left: 100px;
+            top: 0px;
+        }
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    } </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
+
